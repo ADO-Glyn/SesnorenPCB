@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "VL53L1CXV0FY_1"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-08-09-14:26:45)
+    (mountForm default
+        (footprintRef "VL53L1CXV0FY1")
+        (spec "System")
+    )
+)

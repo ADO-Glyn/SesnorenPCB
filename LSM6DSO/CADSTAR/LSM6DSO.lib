@@ -1,0 +1,18 @@
+.LSM6DSO :1 ;IMUs - Inertial Measurement Units iNEMO inertial module: 3D accelerometer and 3D gyroscope
+LSM6DSO
+*STM AC
+*NGS
+*PLB 1="SDO/SA0" 2="SDX" 3="SCX" 4="INT1 " 5="VDDIO" 6="GND_1" 7="GND_2" 8="VDD" 9="INT2" 10="OCS_AUX" 11="SDO_AUX " 12="CS" 13="SCL" 14="SDA"
+*MXP 14
+*DFN LSM6DSO
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (LSM6DSO)
+~!Mouser Part Number (N/A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM6DSO?qs=lc2O%252BfHJPVaWmEJZZeO%252B0w%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.st.com/en/mems-and-sensors/lsm6dso.html)
+~!Height (0.86mm)
+~!3D_Model (LSM6DSO)
+LSM6DSO
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 

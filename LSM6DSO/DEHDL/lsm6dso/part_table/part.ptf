@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LSM6DSO'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "LSM6DSO" (!) = "", "LSM6DSO", "Other", "N/A", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM6DSO?qs=lc2O%252BfHJPVaWmEJZZeO%252B0w%3D%3D", "", "", "IMUs - Inertial Measurement Units iNEMO inertial module: 3D accelerometer and 3D gyroscope", "https://www.st.com/en/mems-and-sensors/lsm6dso.html", "0.86 mm"
+END_PART
+
+END.

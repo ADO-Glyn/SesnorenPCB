@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "VL53L1CXV0FY1"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "VL53L1CXV0FY1")
+        (spec "default")
+    )
+)

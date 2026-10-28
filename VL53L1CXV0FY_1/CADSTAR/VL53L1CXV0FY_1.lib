@@ -1,0 +1,18 @@
+.VL53L1CXV0FY_1 :1 ;A new generation, long distance ranging Time-of-Flight sensor based on ST's FlightSense technology
+VL53L1CXV0FY1
+*STM IC
+*NGS
+*PLB 1="AVDDVCSEL" 2="AVSSVCSEL" 3="GND" 4="GND2" 5="XSHUT" 6="GND3" 7="GPIO1" 8="DNC" 9="SDA" 10="SCL" 11="AVDD" 12="GND4"
+*MXP 12
+*DFN VL53L1CXV0FY_1
+~!Manufacturer_Name (STMicroelectronics)
+~!Manufacturer_Part_Number (VL53L1CXV0FY/1)
+~!Mouser Part Number (511-VL53L1CXV0FY/1)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L1CXV0FY-1?qs=W0yvOO0ixfFQE5v5L6h6PA%3D%3D)
+~!Arrow Part Number (VL53L1CXV0FY/1)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/vl53l1cxv0fy1/stmicroelectronics.html?utm_currency=USD&region=nac)
+~!Link Datasheet (https://www.st.com/resource/en/datasheet/vl53l1x.pdf)
+~!Height (1mm)
+~!3D_Model (VL53L1CXV0FY_1)
+VL53L1CXV0FY_1
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

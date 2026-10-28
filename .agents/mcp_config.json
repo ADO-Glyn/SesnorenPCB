@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "konnect": {
+      "command": "C:\\KiCAD Projekte\\SensorenPCB\\LibreKonnect\\bin\\konnect.exe"
+    }
+  }
+}

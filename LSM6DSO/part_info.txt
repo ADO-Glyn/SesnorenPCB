@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=LSM6DSO
+PartCategory=Accelerometer
+PackageCategory=Other
+PinCount=14
+Version=1.3
+Released=2023-09-21 06:48:25
+Downloaded=2026-09-21 15:11:36
+3D=Y

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'VL53L1CXV0FY_1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT", "TJ", "MTBF", "POWER", "SLOPE", "SUBTYPE", "PACKAGE", "RJA", "VCC_MAX", "VCC_MIN", "VIN_MAX", "VIN_MIN", "IOUT_MAX", "IOUT_MIN", "ICC", "IGND", "RCA", "RJC", "ICCQ", "TECHNOLOGY";
+{========================================================================================}
+ "STMicroelectronics", "VL53L1CXV0FY/1" (!) = "", "VL53L1CXV0FY1", "Other", "511-VL53L1CXV0FY/1", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L1CXV0FY-1?qs=W0yvOO0ixfFQE5v5L6h6PA%3D%3D", "VL53L1CXV0FY/1", "https://www.arrow.com/en/products/vl53l1cxv0fy1/stmicroelectronics.html?utm_currency=USD&region=nac", "A new generation, long distance ranging Time-of-Flight sensor based on ST's FlightSense technology", "https://www.st.com/resource/en/datasheet/vl53l1x.pdf", "1 mm", "85", "", "", "", "TIME-OF-FLIGHT SENSOR SMD", "Optical LGA12", "", "3.6", "-0.5", "", "", "", "", "", "", "", "", "", ""
+END_PART
+
+END.

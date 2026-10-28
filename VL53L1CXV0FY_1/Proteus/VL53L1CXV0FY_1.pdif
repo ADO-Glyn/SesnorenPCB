@@ -1,0 +1,166 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "VL53L1CXV0FY_1"
+   (description "A new generation, long distance ranging Time-of-Flight sensor based on ST\'s FlightSense technology")
+   (family "ANA")
+   (package "VL53L1CXV0FY1")
+   (attribute "Datasheet Link" "https://www.st.com/resource/en/datasheet/vl53l1x.pdf")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Manufacturer_Name" "STMicroelectronics")
+   (attribute "Manufacturer_Part_Number" "VL53L1CXV0FY/1")
+   (attribute "Mouser Part Number" "511-VL53L1CXV0FY/1")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/VL53L1CXV0FY-1?qs=W0yvOO0ixfFQE5v5L6h6PA%3D%3D")
+   (attribute "Arrow Part Number" "VL53L1CXV0FY/1")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/vl53l1cxv0fy1/stmicroelectronics.html?utm_currency=USD&region=nac")
+   (gate
+    (symbol "VL53L1CXV0FY_1")
+    (pin "AVDDVCSEL" 1 PS)
+    (pin "AVSSVCSEL" 2 PS)
+    (pin "GND" 3 PS)
+    (pin "GND2" 4 PS)
+    (pin "XSHUT" 5 PS)
+    (pin "GND3" 6 PS)
+    (pin "GPIO1" 7 PS)
+    (pin "DNC" 8 PS)
+    (pin "SDA" 9 PS)
+    (pin "SCL" 10 PS)
+    (pin "AVDD" 11 PS)
+    (pin "GND4" 12 PS)
+   )
+  )
+  (symbol "VL53L1CXV0FY_1"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1200 100) (pt 1200 -600) (pt 200 -600) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1400 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "VL53L1CXV0FY1"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -2.4 -1.2)
+      (pt 2.4 -1.2)
+      (pt 2.4 1.2)
+      (pt -2.4 1.2)
+      (pt -2.4 -1.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.4 1.2)
+      (pt 2.4 1.2)
+      (pt 2.4 -1.2)
+      (pt -2.4 -1.2)
+      (pt -2.4 1.2))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.9 2.2)
+      (pt 2.9 2.2)
+      (pt 2.9 -1.7)
+      (pt -2.9 -1.7)
+      (pt -2.9 2.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.7 1.6)
+      (arc (pt -1.700 1.600) (pt -1.700 1.500) (pt -1.500 1.700) (start -180.0) (sweep 180.0))
+      (pt -1.5 1.6)
+      (arc (pt -1.500 1.600) (pt -1.700 1.500) (pt -1.500 1.700) (start -180.0) (sweep .0))
+      (pt -1.7 1.6))))
+   (leg 1 (pt -1.600 0.800) (padstack 0))
+   (leg 2 (pt -0.800 0.800) (padstack 0))
+   (leg 3 (pt 0.000 0.800) (padstack 0))
+   (leg 4 (pt 0.800 0.800) (padstack 0))
+   (leg 5 (pt 1.600 0.800) (padstack 0))
+   (leg 6 (pt 1.600 0.000) (padstack 0))
+   (leg 7 (pt 1.600 -0.800) (padstack 0))
+   (leg 8 (pt 0.800 -0.800) (padstack 0))
+   (leg 9 (pt 0.000 -0.800) (padstack 0))
+   (leg 10 (pt -0.800 -0.800) (padstack 0))
+   (leg 11 (pt -1.600 -0.800) (padstack 0))
+   (leg 12 (pt -1.600 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (square 0.500))
+   )
+   (model "VL53L1CXV0FY_1.stp"
+    (euler 90 0 180)
+    (offset 1.4800000190734863 0.009999999776482582 0.03999999910593033)
+   )
+  )
+ )
+)
