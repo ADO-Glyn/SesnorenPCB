@@ -1978,6 +1978,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54) (xy 0.762 1.27) (xy 0 2.54) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "syms:EDT_SE-027_Shield"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2660,18 +2775,6 @@
 			)
 		)
 		(uuid "e62061ff-1096-47f0-8bf8-9b5356520ae2")
-	)
-	(junction
-		(at 135.89 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0bcecf7d-986f-4ed1-baf3-62b59beb6d75")
-	)
-	(junction
-		(at 135.89 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33d6c35b-8022-4b04-a5ae-9c08de4bb8ad")
 	)
 	(junction
 		(at 95.25 116.84)
@@ -3549,16 +3652,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 140.97) (xy 135.89 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab1f4e3b-9fbb-496a-a3fe-39469dfff689")
-	)
-	(wire
-		(pts
 			(xy 50.8 54.61) (xy 48.26 54.61)
 		)
 		(stroke
@@ -3776,16 +3869,6 @@
 			(type default)
 		)
 		(uuid "db183abd-df5e-46da-a199-d6e4998ffb91")
-	)
-	(wire
-		(pts
-			(xy 135.89 114.3) (xy 135.89 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc40e246-7188-4424-a4fd-5061fbe09126")
 	)
 	(wire
 		(pts
@@ -4824,88 +4907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 38.1 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b38aa51-5a99-4d35-970c-285c92333f09")
-		(property "Reference" "R2"
-			(at 40.64 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 40.64 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 36.322 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 38.1 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "72a0e7b6-21b9-485d-a802-b8899c2b7037")
-		)
-		(pin "2"
-			(uuid "3cd6ecef-3a48-4cce-8c2f-a031b066c226")
-		)
-		(instances
-			(project "SensorenPCB"
-				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 33.02 69.85 0)
 		(unit 1)
@@ -5681,88 +5682,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 29.21 177.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a19508ff-c8af-429e-ad85-e2d217a389f1")
-		(property "Reference" "R1"
-			(at 31.75 176.5299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 31.75 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 27.432 177.8 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 29.21 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a0b56e59-2e35-4cef-a4af-425f14fc1dbe")
-		)
-		(pin "2"
-			(uuid "8f65c27c-052e-4cec-94e6-61d7c670410e")
-		)
-		(instances
-			(project "SensorenPCB"
-				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "New_Library:VL53L1CXV0FY_1")
 		(at 97.79 104.14 0)
 		(unit 1)
@@ -6346,557 +6265,9 @@
 			)
 		)
 	)
-	(label "I2C3_RST"
-		(at 97.79 114.3 180)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "405be399-bcbb-4ccb-b16f-3ad07e4232c5")
-	)
-	(label "I2C3_INT"
-		(at 133.35 104.14 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "1ac8fbf6-8c56-40aa-b27d-cbcbc4ff7336")
-	)
-	(label "I2C3_SDA"
-		(at 133.35 109.22 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "f9ec2d15-a94b-4815-9313-7438a5060ddc")
-	)
-	(label "I2C3_SCL"
-		(at 133.35 111.76 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "72d24d24-4a55-4563-ba9a-b3cb9d4ed022")
-	)
-	(label "I2C4_RST"
-		(at 97.79 160.02 180)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "4d67db05-4067-41bf-a642-427f63778236")
-	)
-	(label "I2C4_INT"
-		(at 133.35 149.86 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "5b530c45-43da-492a-a7be-e1bc44ffbad0")
-	)
-	(label "I2C4_SDA"
-		(at 133.35 154.94 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf12755a-145f-43bd-a63a-076ae0d8912e")
-	)
-	(label "I2C4_SCL"
-		(at 133.35 157.48 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "84a7a82b-a9b0-4592-9a3f-c918984ff327")
-	)
-	(wire
-		(pts
-			(xy 27.94 142.24) (xy 25.4 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c09944b-2754-4243-813d-c39939da7933")
-	)
-	(label "GND"
-		(at 25.4 142.24 180)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "ca251f04-72a1-44de-aa1f-27068eaa4281")
-	)
-	(wire
-		(pts
-			(xy 27.94 144.78) (xy 25.4 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc529b4d-0fbe-48f0-b459-ded8aa3af8fb")
-	)
-	(label "GND"
-		(at 25.4 144.78 180)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "5542e613-7214-4cea-b038-ab6c2048a25c")
-	)
-	(wire
-		(pts
-			(xy 27.94 147.32) (xy 25.4 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f79cfd2c-e85d-4d92-adbd-56356ca61cdf")
-	)
-	(label "GND"
-		(at 25.4 147.32 180)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "db9e54c2-8be4-411d-a7de-b5cfb034f154")
-	)
-	(wire
-		(pts
-			(xy 27.94 149.86) (xy 25.4 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a307136-a325-4187-b12e-d3bdec4de794")
-	)
-	(label "USART6_RTS"
-		(at 25.4 149.86 180)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "b73f6ee5-31ad-4d70-8c42-7317b2a76b04")
-	)
-	(wire
-		(pts
-			(xy 68.58 142.24) (xy 71.12 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7286974c-568d-432e-95b2-f3817c112c38")
-	)
-	(label "+3V3"
-		(at 71.12 142.24 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "22bc9f3a-13ca-44b6-85c8-df34fb3820ba")
-	)
-	(no_connect
-		(at 68.58 144.78)
-		(uuid "f1ec54b1-ba7c-49b6-a44e-b8230e299092")
-	)
-	(wire
-		(pts
-			(xy 68.58 147.32) (xy 71.12 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c62a43c4-a0b0-4337-97de-2eefa1fa17dc")
-	)
-	(label "USART6_CTS"
-		(at 71.12 147.32 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "7aee61c1-6fe3-4ca8-85e8-f4d78d004eb6")
-	)
-	(wire
-		(pts
-			(xy 68.58 149.86) (xy 71.12 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7bf8f0-2ac2-405a-8b1d-cc22f27bc085")
-	)
-	(label "+3V3"
-		(at 71.12 149.86 0)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "16beeb4d-f35b-4e82-b85f-482f07dac4fc")
-	)
-	(wire
-		(pts
-			(xy 50.8 127) (xy 50.8 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b193b376-eb13-4bc1-86c8-58a8a77daccf")
-	)
-	(label "+3V3"
-		(at 50.8 124.46 90)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "d31068fe-66fe-42bd-a02d-b44e0573e1a7")
-	)
-	(wire
-		(pts
-			(xy 48.26 127) (xy 48.26 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09370c53-3e09-443d-9575-635ab2bc4bb2")
-	)
-	(label "I2C3_SCL"
-		(at 48.26 124.46 90)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "935f2ed6-213d-4d10-97bd-75731e63f407")
-	)
-	(wire
-		(pts
-			(xy 45.72 127) (xy 45.72 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c0470ff-eaa3-431c-a83a-5b8591162b95")
-	)
-	(label "I2C3_SDA"
-		(at 45.72 124.46 90)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b383e5e-ddbb-4b9c-8b82-4626ef8fd467")
-	)
-	(wire
-		(pts
-			(xy 45.72 167.64) (xy 45.72 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b6d59cb-d663-4d5d-abb0-ddb16e954455")
-	)
-	(label "+3V3"
-		(at 45.72 170.18 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e6e4b10-1c92-4c89-a083-aac90cd7638a")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 60 190 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8035d0fc-8e87-4c48-ade3-2220bf9424ad")
-		(property "Reference" "C5"
-			(at 62.54 188.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 62.54 191.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 58.22 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 60 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "364425f3-5b46-4658-aae9-438f3836bd07")
-		)
-		(pin "2"
-			(uuid "ba96ee92-f650-49fe-bb28-db7fd2818b49")
-		)
-		(instances
-			(project "SensorenPCB"
-				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 60 186.19) (xy 60 183.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1f03cfc-4c3e-4ff0-a76c-fd2a6714a9ad")
-	)
-	(label "+3V3"
-		(at 60 183.65 90)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "90b79e5b-80c1-4d14-8fd8-1dec3366994e")
-	)
-	(wire
-		(pts
-			(xy 60 193.81) (xy 60 196.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "951ed51b-e43f-4ecd-aaf7-2f109208b051")
-	)
-	(label "GND"
-		(at 60 196.35 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "402f0120-ac34-46e8-b8e0-3666905ebf60")
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 68 190 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "013ac943-6c7a-417f-9f1d-9a0f723a8e1c")
-		(property "Reference" "C6"
-			(at 70.54 188.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 70.54 191.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 66.22 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 68 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f3e9f0ee-2c3e-4af3-a956-f46e22194efc")
-		)
-		(pin "2"
-			(uuid "fc163551-22fe-4817-bd73-772560595bd9")
-		)
-		(instances
-			(project "SensorenPCB"
-				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 68 186.19) (xy 68 183.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43fe4425-a44c-4e7a-8240-7bd92fe052dc")
-	)
-	(label "+3V3"
-		(at 68 183.65 90)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "21b98f89-9014-4bd1-ace9-277f40433ee4")
-	)
-	(wire
-		(pts
-			(xy 68 193.81) (xy 68 196.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b0878b3-c39f-42cc-b2dd-bdd78876b0ab")
-	)
-	(label "GND"
-		(at 68 196.35 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "c0501355-e108-4f08-83ea-7d69559abbcd")
-	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100 190 0)
+		(at 142.24 100.33 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6905,375 +6276,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "689e93bc-381b-4e28-aea4-c246421cbcdf")
-		(property "Reference" "R3"
-			(at 102.54 188.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 102.54 191.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 98.22 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 100 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "48dee10b-abea-4f69-9346-2597d7517ab8")
-		)
-		(pin "2"
-			(uuid "b2d0aefc-eb7b-459d-9d3d-ccb546abba36")
-		)
-		(instances
-			(project "SensorenPCB"
-				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 100 186.19) (xy 100 183.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d5bd0f0d-e428-45de-a754-39daff704ae8")
-	)
-	(label "+3V3"
-		(at 100 183.65 90)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "78c3d548-b4fd-43b3-a294-6bc2fa1af394")
-	)
-	(wire
-		(pts
-			(xy 100 193.81) (xy 100 196.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d81c56d-5956-4306-a2ee-6d098b56662d")
-	)
-	(label "I2C4_SDA"
-		(at 100 196.35 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "8c1d6674-e7e7-4905-a2a1-f4f5a23373b6")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 108 190 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dda32afa-fcd1-4b5a-a39c-c51d237cffd9")
-		(property "Reference" "R4"
-			(at 110.54 188.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 110.54 191.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 106.22 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 108 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 108 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "803c7dea-4ba7-47e9-b367-2319145600d8")
-		)
-		(pin "2"
-			(uuid "55fa2f17-8925-457a-a33b-78bf6f04373e")
-		)
-		(instances
-			(project "SensorenPCB"
-				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 108 186.19) (xy 108 183.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76d00a07-d70b-49a5-84f1-ab5a1b8e5ae7")
-	)
-	(label "+3V3"
-		(at 108 183.65 90)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "41d311a4-9642-4265-9112-8795fa8c25a6")
-	)
-	(wire
-		(pts
-			(xy 108 193.81) (xy 108 196.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b92f455e-a492-48fb-b5b7-e8be5249c3d2")
-	)
-	(label "I2C4_SCL"
-		(at 108 196.35 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "5104e233-875a-4b18-b632-a773fcd01619")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 116 190 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37f23ecb-3e44-44fb-9e22-f8c9049a43e1")
-		(property "Reference" "R5"
-			(at 118.54 188.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 118.54 191.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 114.22 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 116 190 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce34ecf6-f559-4c57-aabe-e2ada9e362d8")
-		)
-		(pin "2"
-			(uuid "9a58030e-85c7-435e-a95f-b25d40f6c495")
-		)
-		(instances
-			(project "SensorenPCB"
-				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 116 186.19) (xy 116 183.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9fd3086-5668-4079-a73f-52be9286f884")
-	)
-	(label "+3V3"
-		(at 116 183.65 90)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "0dd38cf1-9fed-45f2-be03-6f72e16962a1")
-	)
-	(wire
-		(pts
-			(xy 116 193.81) (xy 116 196.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d82498c-4998-4afe-bfb0-e20fe8421dc8")
-	)
-	(label "I2C3_RST"
-		(at 116 196.35 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "931a68ed-30e4-4d72-ae74-54520f51381d")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 124 190 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f82a38b-4781-41e0-9839-338fe129077d")
+		(uuid "e55790fd-bf5b-4440-aab4-ebe11f229de0")
 		(property "Reference" "R6"
-			(at 126.54 188.73 0)
+			(at 144.78 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7284,7 +6289,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 126.54 191.27 0)
+			(at 144.78 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7295,7 +6300,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 122.22 190 0)
+			(at 140.46 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7306,7 +6311,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124 190 0)
+			(at 142.24 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7317,7 +6322,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 124 190 0)
+			(at 142.24 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7328,10 +6333,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ee54533-0882-4c50-90d8-05311c310ad9")
+			(uuid "cdfcef2f-4b12-4385-8c65-d1ad5d2eac3b")
 		)
 		(pin "2"
-			(uuid "187b6c60-4ffd-431c-a33a-2a45c5ee6f83")
+			(uuid "1cc17f21-cc41-4cd5-9534-e2f0919a4b79")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -7344,47 +6349,43 @@
 	)
 	(wire
 		(pts
-			(xy 124 186.19) (xy 124 183.65)
+			(xy 133.35 104.14) (xy 142.24 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ecc352de-05ca-4fb1-b605-499e4172e17e")
+		(uuid "6523eab9-1c53-4b14-a965-1fa177691beb")
 	)
-	(label "+3V3"
-		(at 124 183.65 90)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 142.24 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e161b4a0-736f-4b12-a779-c917f13d2c80")
+	)
+	(junction
+		(at 142.24 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f9b4c6c-5c2b-4bcb-8284-30dfbaade3f0")
+	)
+	(label "I2C3_INT"
+		(at 134.62 104.14 0)
 		(effects
 			(font
 				(size 0.7112 0.7112)
 			)
 			(justify left bottom)
 		)
-		(uuid "3a96d397-f87c-413d-a7fa-de62ef1f9bc4")
-	)
-	(wire
-		(pts
-			(xy 124 193.81) (xy 124 196.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0df1acd5-b8f8-4a7b-902d-0f4a7ae70314")
-	)
-	(label "I2C3_INT"
-		(at 124 196.35 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "f5c79af7-694e-4123-8539-06993f91a21e")
+		(uuid "294c23e4-be2f-42ac-abb4-5badee272273")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 132 190 0)
+		(at 149.86 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7393,9 +6394,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b53f430e-028f-4ebf-82cd-ae7a6e13512c")
-		(property "Reference" "R7"
-			(at 134.54 188.73 0)
+		(uuid "86bdb5a8-6200-45b0-ad1b-b07aad9228a2")
+		(property "Reference" "R1"
+			(at 152.4 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7405,8 +6406,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 134.54 191.27 0)
+		(property "Value" "3.3k"
+			(at 152.4 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7417,7 +6418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 130.22 190 0)
+			(at 148.08 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7428,7 +6429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132 190 0)
+			(at 149.86 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7439,7 +6440,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 132 190 0)
+			(at 149.86 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7450,15 +6451,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "efa6f354-4ef8-4f84-8e49-f15eac842726")
+			(uuid "f90f4323-c7dd-4ce4-9c24-368f7b6b2da1")
 		)
 		(pin "2"
-			(uuid "d5e422b5-d31a-43d6-a3c2-600b6ca95bb0")
+			(uuid "6463fdf7-5013-4c16-861e-45bd14620ae8")
 		)
 		(instances
 			(project "SensorenPCB"
 				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -7466,47 +6467,43 @@
 	)
 	(wire
 		(pts
-			(xy 132 186.19) (xy 132 183.65)
+			(xy 133.35 109.22) (xy 149.86 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41e8ae9e-333b-4370-92c0-91a31a0521da")
+		(uuid "7da57199-a1a4-45c9-a3e3-5806d9fd383b")
 	)
-	(label "+3V3"
-		(at 132 183.65 90)
+	(wire
+		(pts
+			(xy 149.86 101.6) (xy 149.86 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8787662-dfe7-43f8-af1d-fcdcc7f88004")
+	)
+	(junction
+		(at 149.86 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1198b38a-6f86-4f18-82b1-8940b39709d7")
+	)
+	(label "I2C3_SDA"
+		(at 134.62 109.22 0)
 		(effects
 			(font
 				(size 0.7112 0.7112)
 			)
 			(justify left bottom)
 		)
-		(uuid "1d86e133-eff9-48af-afdd-2b5dea80e01f")
-	)
-	(wire
-		(pts
-			(xy 132 193.81) (xy 132 196.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec516a7-2d29-4bee-b5fa-48bfdee51f27")
-	)
-	(label "I2C4_RST"
-		(at 132 196.35 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "3cb57f5a-2d90-44f8-a925-67e534787c79")
+		(uuid "db9979bc-97c2-4a74-9eb9-fd826c2f8d65")
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140 190 0)
+		(at 157.48 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7515,9 +6512,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "10773fff-2f98-4626-8b1c-50a69bfbff71")
-		(property "Reference" "R8"
-			(at 142.54 188.73 0)
+		(uuid "1d799082-a501-4280-94b1-4c778480aab9")
+		(property "Reference" "R2"
+			(at 160.02 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7527,8 +6524,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 142.54 191.27 0)
+		(property "Value" "3.3k"
+			(at 160.02 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7539,7 +6536,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 138.22 190 0)
+			(at 155.7 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7550,7 +6547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140 190 0)
+			(at 157.48 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7561,7 +6558,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140 190 0)
+			(at 157.48 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -7572,10 +6569,364 @@
 			)
 		)
 		(pin "1"
-			(uuid "07cf0ad3-031c-40e6-a27d-022e355cf588")
+			(uuid "326c4478-4e54-40ad-87a6-f49931f551b3")
 		)
 		(pin "2"
-			(uuid "e36dfc98-a2a8-4b74-849b-37f9f89e39f4")
+			(uuid "2a258b8d-a05c-478d-b07a-62d7c7f6d27a")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 133.35 111.76) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2444d1fa-eea0-4bcf-b3a5-d8bd62a9824d")
+	)
+	(wire
+		(pts
+			(xy 157.48 104.14) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9920a56-fdaa-49ac-bf47-298827057ce2")
+	)
+	(junction
+		(at 157.48 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87186cec-fa9f-414b-b6ca-c35909f243c9")
+	)
+	(label "I2C3_SCL"
+		(at 134.62 111.76 0)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "c14148a9-a4a2-456a-a16e-873e7c393ec5")
+	)
+	(wire
+		(pts
+			(xy 135.89 93.98) (xy 165.1 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1cdf9b-0927-4c4a-bfc1-2ce1c9e8eec5")
+	)
+	(wire
+		(pts
+			(xy 165.1 93.98) (xy 165.1 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f42f8ad-8917-40eb-a84c-09e451fb3a46")
+	)
+	(wire
+		(pts
+			(xy 165.1 114.3) (xy 156.21 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50be13d3-a4c2-4bd4-8b51-d3cf009e2c1c")
+	)
+	(junction
+		(at 156.21 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2272e9ed-d1ed-4f0b-9aad-5174eb289623")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bccd1f85-fde8-4980-b40d-91240bc17bd1")
+		(property "Reference" "R5"
+			(at 86.36 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 82.04 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58847878-4b29-46d8-85a8-267fc4da9d1a")
+		)
+		(pin "2"
+			(uuid "6ec94735-3d0f-4b76-b2aa-0a507e0bb3d4")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 97.79 114.3) (xy 83.82 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dd63ab5-56da-42c9-9ba4-43fe0826e9cc")
+	)
+	(wire
+		(pts
+			(xy 83.82 114.3) (xy 83.82 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e322d2-913c-4678-a1a8-580fa6ba03ca")
+	)
+	(wire
+		(pts
+			(xy 83.82 102.87) (xy 83.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ce4f2f3-cc26-43ef-84ba-4f11a96ea93a")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 83.82 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc9c08ff-4b64-48ca-8a22-23399b70bf75")
+		(property "Reference" "#PWR07"
+			(at 83.82 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 83.82 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 83.82 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9dc7b99-4a99-456c-a325-acbec419980a")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "I2C3_RST"
+		(at 93.98 114.3 180)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify right bottom)
+		)
+		(uuid "fe1d84f8-c32f-4691-8b58-95eff849e59c")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "208628de-d25e-4095-a430-5c7b689ecb69")
+		(property "Reference" "R8"
+			(at 144.78 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.78 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 140.46 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e86ccb23-60e2-4a88-bdb9-7538a1bd1f89")
+		)
+		(pin "2"
+			(uuid "11859b6a-1210-475e-acb7-4fbd396f40ad")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -7588,123 +6939,1387 @@
 	)
 	(wire
 		(pts
-			(xy 140 186.19) (xy 140 183.65)
+			(xy 133.35 149.86) (xy 142.24 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2b9c5b14-c6a8-4d08-a4b1-094d05395d5f")
-	)
-	(label "+3V3"
-		(at 140 183.65 90)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify left bottom)
-		)
-		(uuid "3ed4ff3d-2739-4a8a-9e78-6042e1f68930")
+		(uuid "3600a9d7-3640-4b5c-aa32-e1f3e0838a07")
 	)
 	(wire
 		(pts
-			(xy 140 193.81) (xy 140 196.35)
+			(xy 142.24 142.24) (xy 142.24 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "84b0496f-d455-4dc8-8477-3afe2a6bb1d4")
+		(uuid "654ede56-054c-49f5-97d6-6b592eaf2c7c")
+	)
+	(junction
+		(at 142.24 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee13fa48-3153-44e6-b076-f85686b18fa0")
 	)
 	(label "I2C4_INT"
-		(at 140 196.35 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "21683d25-decb-408d-80eb-f0df9b80cb77")
-	)
-	(wire
-		(pts
-			(xy 29.21 173.99) (xy 29.21 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c794f5d9-b25a-461f-9009-021cc2f79fb9")
-	)
-	(label "+3V3"
-		(at 29.21 171.45 90)
+		(at 134.62 149.86 0)
 		(effects
 			(font
 				(size 0.7112 0.7112)
 			)
 			(justify left bottom)
 		)
-		(uuid "176dcc7b-2983-4da0-8cb8-4e82e2303ac4")
+		(uuid "a6c84ac5-6305-4690-9501-165fd2437b5e")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 149.86 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de3af871-8731-45aa-96bb-72cc413adb25")
+		(property "Reference" "R3"
+			(at 152.4 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 152.4 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 148.08 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 149.86 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 149.86 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64585906-245f-40d5-913f-64fba873ccff")
+		)
+		(pin "2"
+			(uuid "0eb0c3c0-74b6-4f68-a30c-46784a04f835")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(wire
 		(pts
-			(xy 29.21 181.61) (xy 29.21 184.15)
+			(xy 133.35 154.94) (xy 149.86 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e96be05-0339-4842-a306-2af26b5a1094")
+		(uuid "860b6873-34f8-4b3d-b8cf-531a7f6dda47")
+	)
+	(wire
+		(pts
+			(xy 149.86 147.32) (xy 149.86 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dddb9bdc-08c3-4f8b-8001-a3a753463067")
+	)
+	(junction
+		(at 149.86 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0af3864a-74b5-45ea-9105-cd6ab47877e3")
+	)
+	(label "I2C4_SDA"
+		(at 134.62 154.94 0)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "a7993186-022b-414d-accc-2c670bce3fd7")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0315a572-2f6e-4ab4-9c86-5fa0944b0d17")
+		(property "Reference" "R4"
+			(at 160.02 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 160.02 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 155.7 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6287e68-9b48-44a3-a39e-421cb96757a9")
+		)
+		(pin "2"
+			(uuid "ef3489b5-7db4-4837-b755-0f4faa25567b")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 133.35 157.48) (xy 157.48 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d12fd27-36d1-4f94-8ac0-a02a9bc9edc1")
+	)
+	(wire
+		(pts
+			(xy 157.48 149.86) (xy 157.48 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95595e30-4e34-4a66-83ec-e965d4eeb6aa")
+	)
+	(junction
+		(at 157.48 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14f880a2-40ec-44ed-9feb-e30883f32f7b")
+	)
+	(label "I2C4_SCL"
+		(at 134.62 157.48 0)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3068be0-759e-44a4-a0d6-545df4ce53e5")
+	)
+	(wire
+		(pts
+			(xy 135.89 140.97) (xy 165.1 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1410f176-3aeb-4879-a855-19db8fcebe71")
+	)
+	(wire
+		(pts
+			(xy 165.1 140.97) (xy 165.1 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6888f4f9-5b1e-4d76-851a-4edad3c64972")
+	)
+	(wire
+		(pts
+			(xy 165.1 160.02) (xy 156.21 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5229685-8396-40f1-bdde-1925dc501de7")
+	)
+	(junction
+		(at 156.21 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "79b2ee5a-3609-4819-a481-e77e66e41dfe")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2b483e4-f72c-4bcc-b00b-8928d0383e24")
+		(property "Reference" "R7"
+			(at 86.36 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 86.36 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 82.04 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81d7e0bb-ee38-4caf-abfb-2f82bd21a871")
+		)
+		(pin "2"
+			(uuid "9d76846a-19e2-401f-8d3c-3e9ac195f277")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 97.79 160.02) (xy 83.82 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ea1c9a-2ffe-40ca-b98b-573e47d0655b")
+	)
+	(wire
+		(pts
+			(xy 83.82 160.02) (xy 83.82 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c9afe3a-5045-4aa9-955c-01fb7e72f516")
+	)
+	(wire
+		(pts
+			(xy 83.82 148.59) (xy 83.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20437355-b7fb-418d-88b4-c9f9fcc0a09a")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 83.82 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "89d07e55-2b3f-47f1-b6fb-5dd7483ee3d0")
+		(property "Reference" "#PWR08"
+			(at 83.82 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 83.82 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 83.82 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "903a9bdd-8dbb-4fde-ad36-93ffd53590cc")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "I2C4_RST"
+		(at 93.98 160.02 180)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify right bottom)
+		)
+		(uuid "d4201561-9fbb-4d3e-9e18-f75e3b72a523")
+	)
+	(wire
+		(pts
+			(xy 27.94 142.24) (xy 22.86 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a48489e-911e-4b38-94c3-775f5f34fac9")
+	)
+	(wire
+		(pts
+			(xy 27.94 144.78) (xy 22.86 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fd845f-568c-49b2-b871-2655f16628a1")
+	)
+	(wire
+		(pts
+			(xy 27.94 147.32) (xy 22.86 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223de2ae-d594-4812-8328-118a6b19a07f")
+	)
+	(wire
+		(pts
+			(xy 22.86 147.32) (xy 22.86 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47c2993-66ce-4143-8937-748d9214933a")
+	)
+	(junction
+		(at 22.86 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2db3fb61-b4fe-47ad-abf1-00e81b9de3ef")
+	)
+	(junction
+		(at 22.86 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4cfef899-687d-49a8-a7e6-b0f849c78699")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 22.86 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4eb499f-d2bc-4d7d-9a84-2182853187f1")
+		(property "Reference" "#PWR09"
+			(at 22.86 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 22.86 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 22.86 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "23797f4b-e1fa-486b-9602-d183ff4767e0")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(label "USART6_RTS"
+		(at 27.94 149.86 180)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify right bottom)
+		)
+		(uuid "66dcab01-c4cc-411b-ab10-b86651b711ee")
+	)
+	(no_connect
+		(at 68.58 144.78)
+		(uuid "60c960a8-23d9-4eaf-8566-777e7b67490b")
+	)
+	(no_connect
+		(at 68.58 147.32)
+		(uuid "b9bab22a-4a48-4f63-8505-f53e273e5000")
+	)
+	(wire
+		(pts
+			(xy 68.58 142.24) (xy 71.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d856abd2-a815-4d73-9bec-b56318177c86")
+	)
+	(wire
+		(pts
+			(xy 71.12 142.24) (xy 71.12 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53111168-82cf-4e94-9c68-4890dfdbea44")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 71.12 139.7 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3de537c-8eb6-4976-801b-26dfd3bd8098")
+		(property "Reference" "#PWR10"
+			(at 71.12 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.12 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fde4086e-42db-4a71-aed7-c704d1314ec9")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "#PWR10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 68.58 149.86) (xy 73.66 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ed184fa-2920-4be3-968a-289698fb4411")
+	)
+	(wire
+		(pts
+			(xy 71.12 149.86) (xy 71.12 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "220e07bc-bb40-479e-994a-824327ce60c3")
+	)
+	(junction
+		(at 71.12 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4db1cf3-c350-4132-a40d-c185e930867e")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 71.12 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74663854-638b-4eb2-90a6-7fab2aebfc62")
+		(property "Reference" "#PWR11"
+			(at 71.12 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 71.12 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.12 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 71.12 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 71.12 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4c34bd3-ff44-41de-96c3-ea6c55df4285")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "#PWR11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c03507b6-9cf7-424f-8b13-5a802e97bd89")
+		(property "Reference" "C5"
+			(at 76.2 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 76.2 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 71.88 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 73.66 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c5eb750d-eba6-402e-9c74-ee8408dfd0ba")
+		)
+		(pin "2"
+			(uuid "0fa03b10-068f-4486-805a-e3e984c150a6")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50e7ebea-75d7-4434-b278-565e65cd038c")
+		(property "Reference" "#PWR12"
+			(at 73.66 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cac96601-1b2a-4680-976e-7312160e76f2")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "#PWR12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(label "I2C3_SDA"
-		(at 29.21 184.15 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
-			)
-			(justify right bottom)
-		)
-		(uuid "89bc536e-f9ec-4f6e-b488-1f78575026e4")
-	)
-	(wire
-		(pts
-			(xy 38.1 173.99) (xy 38.1 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d89c10a-3580-415f-9806-fedbbf49c062")
-	)
-	(label "+3V3"
-		(at 38.1 171.45 90)
+		(at 45.72 127 90)
 		(effects
 			(font
 				(size 0.7112 0.7112)
 			)
 			(justify left bottom)
 		)
-		(uuid "d663df9b-43b7-4bbb-a2c5-5322a38d1df1")
+		(uuid "1b4f19c1-63b7-4c4b-9e95-5cc375b60745")
+	)
+	(label "I2C3_SCL"
+		(at 48.26 127 90)
+		(effects
+			(font
+				(size 0.7112 0.7112)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eccb445-b395-409e-92fa-42c9fdddc7e7")
 	)
 	(wire
 		(pts
-			(xy 38.1 181.61) (xy 38.1 184.15)
+			(xy 50.8 127) (xy 50.8 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c4dd2d6-8da5-47dd-86aa-d83371d0d6ac")
+		(uuid "0dbfe268-df17-4290-9e38-82e42bafa537")
 	)
-	(label "I2C3_SCL"
-		(at 38.1 184.15 270)
-		(effects
-			(font
-				(size 0.7112 0.7112)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 50.8 124.46 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a426a5e-5960-4bd8-b787-aa293f8f5502")
+		(property "Reference" "#PWR13"
+			(at 50.8 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
-			(justify right bottom)
 		)
-		(uuid "cfbe30c5-bc91-4dfc-89d7-6a8df46696ed")
+		(property "Value" "+3V3"
+			(at 50.8 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 50.8 124.46 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0f1699e-c67c-4920-aad8-ea8fd9349ed7")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "#PWR13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 45.72 167.64) (xy 45.72 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbfb687e-07d1-40e1-a01e-81ae23087753")
+	)
+	(wire
+		(pts
+			(xy 45.72 171.45) (xy 40.64 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25f271d-f6a0-4667-90ff-72ca7e7b3e0f")
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 45.72 171.45 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb79dd55-5b67-42ac-81a5-b4d59afcc8e9")
+		(property "Reference" "#PWR14"
+			(at 45.72 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 45.72 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 45.72 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a7ff072-65e2-42d7-bd86-2f786ae68f75")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "#PWR14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 40.64 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca2f5d83-19ff-4987-96fa-15cd680865b6")
+		(property "Reference" "C6"
+			(at 43.18 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 43.18 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 38.86 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 40.64 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "940db41b-7e51-4d12-87ed-2ae91b88864a")
+		)
+		(pin "2"
+			(uuid "20aae32c-8a1f-4b84-b6a2-269d2301ed9d")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9790680-7c7c-4840-9020-48f5a12d4aca")
+		(property "Reference" "#PWR15"
+			(at 40.64 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ab3bda0-c09c-44d5-88c5-393d2c97dd7f")
+		)
+		(instances
+			(project "SensorenPCB"
+				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
+					(reference "#PWR15")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(sheet_instances
 		(path "/"
