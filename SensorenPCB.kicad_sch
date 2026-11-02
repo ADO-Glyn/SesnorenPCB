@@ -6276,7 +6276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e55790fd-bf5b-4440-aab4-ebe11f229de0")
+		(uuid "931260d2-8631-4fce-9981-fe5c71e55fe5")
 		(property "Reference" "R6"
 			(at 144.78 99.06 0)
 			(show_name no)
@@ -6333,10 +6333,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cdfcef2f-4b12-4385-8c65-d1ad5d2eac3b")
+			(uuid "cdbe6048-36a6-4664-93ce-381c6c9a97ea")
 		)
 		(pin "2"
-			(uuid "1cc17f21-cc41-4cd5-9534-e2f0919a4b79")
+			(uuid "da2cebdd-5b5e-409e-acf6-e064b67e7a68")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -6355,7 +6355,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6523eab9-1c53-4b14-a965-1fa177691beb")
+		(uuid "e8656b10-9687-47db-8f49-12b8f2eba8ad")
 	)
 	(wire
 		(pts
@@ -6365,13 +6365,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e161b4a0-736f-4b12-a779-c917f13d2c80")
+		(uuid "55bbc2d9-52e9-4e24-88af-60a00fafe2c9")
 	)
 	(junction
 		(at 142.24 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8f9b4c6c-5c2b-4bcb-8284-30dfbaade3f0")
+		(uuid "c4126825-797f-4f6d-a9bc-fda7b635bcf3")
 	)
 	(label "I2C3_INT"
 		(at 134.62 104.14 0)
@@ -6381,7 +6381,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "294c23e4-be2f-42ac-abb4-5badee272273")
+		(uuid "aa9e5b13-ef3f-4910-a74e-bc46b4019337")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6394,7 +6394,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86bdb5a8-6200-45b0-ad1b-b07aad9228a2")
+		(uuid "4a8838c6-bc86-4c8e-94e6-0443416a8f8c")
 		(property "Reference" "R1"
 			(at 152.4 104.14 0)
 			(show_name no)
@@ -6451,10 +6451,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f90f4323-c7dd-4ce4-9c24-368f7b6b2da1")
+			(uuid "df0e08a2-3174-4bd7-a1db-4a44f1346f69")
 		)
 		(pin "2"
-			(uuid "6463fdf7-5013-4c16-861e-45bd14620ae8")
+			(uuid "028cc3a5-418b-42af-9e35-935caac356d3")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -6473,7 +6473,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "7da57199-a1a4-45c9-a3e3-5806d9fd383b")
+		(uuid "2de04a93-5a8e-4274-bfb7-a66546b1514f")
 	)
 	(wire
 		(pts
@@ -6483,13 +6483,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f8787662-dfe7-43f8-af1d-fcdcc7f88004")
+		(uuid "b19b984e-cdd2-4cc6-879b-15760e7b4450")
 	)
 	(junction
 		(at 149.86 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1198b38a-6f86-4f18-82b1-8940b39709d7")
+		(uuid "e6a3aa9b-1b8a-40d2-813b-ce8379274cae")
 	)
 	(label "I2C3_SDA"
 		(at 134.62 109.22 0)
@@ -6499,7 +6499,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "db9979bc-97c2-4a74-9eb9-fd826c2f8d65")
+		(uuid "6b539401-1730-41d4-ab5f-68a1c57cb05a")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6512,7 +6512,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1d799082-a501-4280-94b1-4c778480aab9")
+		(uuid "82d2a17d-f708-4a13-bbf3-ea9151d43b65")
 		(property "Reference" "R2"
 			(at 160.02 106.68 0)
 			(show_name no)
@@ -6569,10 +6569,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "326c4478-4e54-40ad-87a6-f49931f551b3")
+			(uuid "f3cf5037-ec0e-488c-8352-6d842694f947")
 		)
 		(pin "2"
-			(uuid "2a258b8d-a05c-478d-b07a-62d7c7f6d27a")
+			(uuid "10e8a389-21f2-4149-b282-6c59bb5bd7e9")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -6591,7 +6591,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2444d1fa-eea0-4bcf-b3a5-d8bd62a9824d")
+		(uuid "b7cd4133-661f-4ed3-9413-e4ab8fabce26")
 	)
 	(wire
 		(pts
@@ -6601,13 +6601,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e9920a56-fdaa-49ac-bf47-298827057ce2")
+		(uuid "57dd68f7-d7e5-4852-b8bf-e8b33c2642bb")
 	)
 	(junction
 		(at 157.48 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "87186cec-fa9f-414b-b6ca-c35909f243c9")
+		(uuid "34ffa92f-eb18-4bfc-85c5-675bd2ec1ec5")
 	)
 	(label "I2C3_SCL"
 		(at 134.62 111.76 0)
@@ -6617,7 +6617,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "c14148a9-a4a2-456a-a16e-873e7c393ec5")
+		(uuid "093035d4-77ca-4137-afd3-9d9e916a8af5")
 	)
 	(wire
 		(pts
@@ -6627,7 +6627,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "cb1cdf9b-0927-4c4a-bfc1-2ce1c9e8eec5")
+		(uuid "1376515b-9de9-485c-a08a-a880f90ffad7")
 	)
 	(wire
 		(pts
@@ -6637,7 +6637,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9f42f8ad-8917-40eb-a84c-09e451fb3a46")
+		(uuid "81a8f81a-bfff-4d6b-9443-d5224d525728")
 	)
 	(wire
 		(pts
@@ -6647,13 +6647,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "50be13d3-a4c2-4bd4-8b51-d3cf009e2c1c")
+		(uuid "b6b31019-cac8-40da-9621-e7571fd6bebc")
 	)
 	(junction
 		(at 156.21 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2272e9ed-d1ed-4f0b-9aad-5174eb289623")
+		(uuid "e7900c5c-0938-422f-8db6-5d8317166dba")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6666,7 +6666,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bccd1f85-fde8-4980-b40d-91240bc17bd1")
+		(uuid "7945b62b-1d1b-4a98-889c-4b27f6313dd7")
 		(property "Reference" "R5"
 			(at 86.36 105.41 0)
 			(show_name no)
@@ -6723,10 +6723,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "58847878-4b29-46d8-85a8-267fc4da9d1a")
+			(uuid "17b69323-e6e4-4928-a8b6-139631ac7623")
 		)
 		(pin "2"
-			(uuid "6ec94735-3d0f-4b76-b2aa-0a507e0bb3d4")
+			(uuid "4c4778f9-2c28-493b-9d70-d9df076c9434")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -6745,7 +6745,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0dd63ab5-56da-42c9-9ba4-43fe0826e9cc")
+		(uuid "0262524f-ee64-457c-b8fe-9a7da7279784")
 	)
 	(wire
 		(pts
@@ -6755,7 +6755,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "46e322d2-913c-4678-a1a8-580fa6ba03ca")
+		(uuid "b673375e-d048-4949-8128-dcd559d38544")
 	)
 	(wire
 		(pts
@@ -6765,7 +6765,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2ce4f2f3-cc26-43ef-84ba-4f11a96ea93a")
+		(uuid "5a887ef4-20a8-4635-8b15-e2b5f866db60")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -6778,7 +6778,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cc9c08ff-4b64-48ca-8a22-23399b70bf75")
+		(uuid "af56fb31-c53a-4cb7-9dcf-d95e894d1cda")
 		(property "Reference" "#PWR07"
 			(at 83.82 93.98 0)
 			(show_name no)
@@ -6834,7 +6834,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "e9dc7b99-4a99-456c-a325-acbec419980a")
+			(uuid "ce535cbb-cc19-4676-b4a4-c2c63905aafd")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -6853,7 +6853,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fe1d84f8-c32f-4691-8b58-95eff849e59c")
+		(uuid "b30246ac-c9aa-434f-a315-c1cfaf63d487")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6866,7 +6866,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "208628de-d25e-4095-a430-5c7b689ecb69")
+		(uuid "946359be-3b17-44ae-a178-f3e09c5b8f0e")
 		(property "Reference" "R8"
 			(at 144.78 144.78 0)
 			(show_name no)
@@ -6923,10 +6923,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e86ccb23-60e2-4a88-bdb9-7538a1bd1f89")
+			(uuid "e042a671-c450-46f7-a546-26691449d85b")
 		)
 		(pin "2"
-			(uuid "11859b6a-1210-475e-acb7-4fbd396f40ad")
+			(uuid "d9ffac14-8a73-4e16-8ec0-0ebb01be6f9c")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -6945,7 +6945,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3600a9d7-3640-4b5c-aa32-e1f3e0838a07")
+		(uuid "d39ec77d-d407-4e11-8c0b-a4d015d17050")
 	)
 	(wire
 		(pts
@@ -6955,13 +6955,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "654ede56-054c-49f5-97d6-6b592eaf2c7c")
+		(uuid "a76864aa-f625-4b78-aae1-bc09e0f09dff")
 	)
 	(junction
 		(at 142.24 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ee13fa48-3153-44e6-b076-f85686b18fa0")
+		(uuid "395c76ac-53b6-4641-b79d-c3726dd25474")
 	)
 	(label "I2C4_INT"
 		(at 134.62 149.86 0)
@@ -6971,7 +6971,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a6c84ac5-6305-4690-9501-165fd2437b5e")
+		(uuid "2aad6090-bd2b-4d97-86d1-6d953debf5f9")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -6984,7 +6984,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "de3af871-8731-45aa-96bb-72cc413adb25")
+		(uuid "b90d505c-21b8-41e8-884c-1c3feae73add")
 		(property "Reference" "R3"
 			(at 152.4 149.86 0)
 			(show_name no)
@@ -7041,10 +7041,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "64585906-245f-40d5-913f-64fba873ccff")
+			(uuid "68e62533-fbf5-4722-9659-417be858308f")
 		)
 		(pin "2"
-			(uuid "0eb0c3c0-74b6-4f68-a30c-46784a04f835")
+			(uuid "1fcb6da7-e5f2-4a19-b7fb-862cf3b6e31e")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -7063,7 +7063,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "860b6873-34f8-4b3d-b8cf-531a7f6dda47")
+		(uuid "4b4d1de0-504c-4609-a363-7f7f2e1666ed")
 	)
 	(wire
 		(pts
@@ -7073,13 +7073,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "dddb9bdc-08c3-4f8b-8001-a3a753463067")
+		(uuid "65148ec0-f6a5-40fb-ba89-501311b4be31")
 	)
 	(junction
 		(at 149.86 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0af3864a-74b5-45ea-9105-cd6ab47877e3")
+		(uuid "b2a5102e-53fe-4bc8-8d9f-6daff9282497")
 	)
 	(label "I2C4_SDA"
 		(at 134.62 154.94 0)
@@ -7089,7 +7089,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "a7993186-022b-414d-accc-2c670bce3fd7")
+		(uuid "0ca0bcd6-9e3f-4b10-b7c1-8ba70dddef86")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7102,7 +7102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0315a572-2f6e-4ab4-9c86-5fa0944b0d17")
+		(uuid "537408cf-5bfa-4098-b1d3-6675efaa180a")
 		(property "Reference" "R4"
 			(at 160.02 152.4 0)
 			(show_name no)
@@ -7159,10 +7159,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6287e68-9b48-44a3-a39e-421cb96757a9")
+			(uuid "26c0c561-94ba-4712-972e-21dd4ec57831")
 		)
 		(pin "2"
-			(uuid "ef3489b5-7db4-4837-b755-0f4faa25567b")
+			(uuid "6a9ce743-4114-40ec-aff8-9f2256308aa6")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -7181,7 +7181,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2d12fd27-36d1-4f94-8ac0-a02a9bc9edc1")
+		(uuid "9b4e2dfc-178d-41bb-a61b-79386dc97272")
 	)
 	(wire
 		(pts
@@ -7191,13 +7191,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "95595e30-4e34-4a66-83ec-e965d4eeb6aa")
+		(uuid "ff4afeee-2cdd-45e0-838e-81535c120959")
 	)
 	(junction
 		(at 157.48 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "14f880a2-40ec-44ed-9feb-e30883f32f7b")
+		(uuid "5647fffb-ad37-4bcc-999b-cce198c6ee5a")
 	)
 	(label "I2C4_SCL"
 		(at 134.62 157.48 0)
@@ -7207,7 +7207,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "e3068be0-759e-44a4-a0d6-545df4ce53e5")
+		(uuid "081bc41d-2547-47d6-8414-650a1882d7aa")
 	)
 	(wire
 		(pts
@@ -7217,7 +7217,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1410f176-3aeb-4879-a855-19db8fcebe71")
+		(uuid "40297fe9-f01d-4809-a6bd-ac01e654f58a")
 	)
 	(wire
 		(pts
@@ -7227,7 +7227,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6888f4f9-5b1e-4d76-851a-4edad3c64972")
+		(uuid "af01bfa2-7be1-4eb8-821e-5ca55ee7f749")
 	)
 	(wire
 		(pts
@@ -7237,13 +7237,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c5229685-8396-40f1-bdde-1925dc501de7")
+		(uuid "86a35758-b239-4677-b65b-87b69b9bb14e")
 	)
 	(junction
 		(at 156.21 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "79b2ee5a-3609-4819-a481-e77e66e41dfe")
+		(uuid "ca6c056e-62c1-497c-bb85-12a71a1edb9f")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -7256,7 +7256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a2b483e4-f72c-4bcc-b00b-8928d0383e24")
+		(uuid "d7c7eccd-7271-4d49-9ae9-3eea554c3fe5")
 		(property "Reference" "R7"
 			(at 86.36 151.13 0)
 			(show_name no)
@@ -7313,10 +7313,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "81d7e0bb-ee38-4caf-abfb-2f82bd21a871")
+			(uuid "c8bbff81-9bab-4453-9229-67c58eb18e3a")
 		)
 		(pin "2"
-			(uuid "9d76846a-19e2-401f-8d3c-3e9ac195f277")
+			(uuid "3e85b18c-4733-48de-8c7f-9c622a08a45b")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -7335,7 +7335,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "91ea1c9a-2ffe-40ca-b98b-573e47d0655b")
+		(uuid "5e0894c0-b811-4b29-8009-10833e638d5b")
 	)
 	(wire
 		(pts
@@ -7345,7 +7345,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6c9afe3a-5045-4aa9-955c-01fb7e72f516")
+		(uuid "7df0733a-f930-4402-a70a-d85af55f6b30")
 	)
 	(wire
 		(pts
@@ -7355,7 +7355,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "20437355-b7fb-418d-88b4-c9f9fcc0a09a")
+		(uuid "a0afd049-405e-4218-b50c-7d32f88c57b6")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -7368,7 +7368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "89d07e55-2b3f-47f1-b6fb-5dd7483ee3d0")
+		(uuid "72681dd7-438a-4ed4-ab29-914d426ce48f")
 		(property "Reference" "#PWR08"
 			(at 83.82 139.7 0)
 			(show_name no)
@@ -7424,7 +7424,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "903a9bdd-8dbb-4fde-ad36-93ffd53590cc")
+			(uuid "49e25890-b66d-4f3d-9a24-caf2843e0531")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -7443,7 +7443,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d4201561-9fbb-4d3e-9e18-f75e3b72a523")
+		(uuid "4dbea543-37e4-46e4-bebe-7e59467966d6")
 	)
 	(wire
 		(pts
@@ -7453,7 +7453,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3a48489e-911e-4b38-94c3-775f5f34fac9")
+		(uuid "001fabdb-849b-4060-8b6a-aa648babdbb4")
 	)
 	(wire
 		(pts
@@ -7463,7 +7463,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c4fd845f-568c-49b2-b871-2655f16628a1")
+		(uuid "765e3100-0686-4bb0-8b60-b956aad95926")
 	)
 	(wire
 		(pts
@@ -7473,7 +7473,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "223de2ae-d594-4812-8328-118a6b19a07f")
+		(uuid "c936c8f2-9537-4bf9-aa6b-9bcb2002afca")
 	)
 	(wire
 		(pts
@@ -7483,23 +7483,23 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a47c2993-66ce-4143-8937-748d9214933a")
+		(uuid "3f26e096-d0ed-4993-9e79-a1f251ac97a1")
 	)
 	(junction
 		(at 22.86 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2db3fb61-b4fe-47ad-abf1-00e81b9de3ef")
+		(uuid "22bf9836-24e9-4c4f-8795-b96e330d18e0")
 	)
 	(junction
 		(at 22.86 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4cfef899-687d-49a8-a7e6-b0f849c78699")
+		(uuid "c9e0b4a9-f156-4dfe-a875-656c23a8b9c0")
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 22.86 139.7 0)
+		(lib_id "power:GND")
+		(at 22.86 139.7 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7508,7 +7508,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a4eb499f-d2bc-4d7d-9a84-2182853187f1")
+		(uuid "14150d63-5d33-43b4-886a-26754a134696")
 		(property "Reference" "#PWR09"
 			(at 22.86 133.35 0)
 			(show_name no)
@@ -7520,7 +7520,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "GND"
 			(at 22.86 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7552,7 +7552,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 22.86 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7564,7 +7564,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "23797f4b-e1fa-486b-9602-d183ff4767e0")
+			(uuid "840a5388-6ebd-47b8-abce-f6d373ccdc81")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -7583,113 +7583,19 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "66dcab01-c4cc-411b-ab10-b86651b711ee")
+		(uuid "22aec41e-4586-4f98-b398-66f0457bf0c2")
+	)
+	(no_connect
+		(at 68.58 142.24)
+		(uuid "25139e0f-e7e4-43d9-954d-8f27511a9e20")
 	)
 	(no_connect
 		(at 68.58 144.78)
-		(uuid "60c960a8-23d9-4eaf-8566-777e7b67490b")
+		(uuid "c87382a4-be39-4144-8a5c-59a35aad6ec9")
 	)
 	(no_connect
 		(at 68.58 147.32)
-		(uuid "b9bab22a-4a48-4f63-8505-f53e273e5000")
-	)
-	(wire
-		(pts
-			(xy 68.58 142.24) (xy 71.12 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d856abd2-a815-4d73-9bec-b56318177c86")
-	)
-	(wire
-		(pts
-			(xy 71.12 142.24) (xy 71.12 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53111168-82cf-4e94-9c68-4890dfdbea44")
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 71.12 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3de537c-8eb6-4976-801b-26dfd3bd8098")
-		(property "Reference" "#PWR10"
-			(at 71.12 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 71.12 135.89 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 71.12 139.7 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fde4086e-42db-4a71-aed7-c704d1314ec9")
-		)
-		(instances
-			(project "SensorenPCB"
-				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "#PWR10")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "dba5e53e-0e08-4853-83a6-170cc2937571")
 	)
 	(wire
 		(pts
@@ -7699,7 +7605,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5ed184fa-2920-4be3-968a-289698fb4411")
+		(uuid "aef5a0f3-4276-46cd-a147-835a863f83ad")
 	)
 	(wire
 		(pts
@@ -7709,13 +7615,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "220e07bc-bb40-479e-994a-824327ce60c3")
+		(uuid "365031dd-2feb-446f-97a6-4d888ca4f266")
 	)
 	(junction
 		(at 71.12 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4db1cf3-c350-4132-a40d-c185e930867e")
+		(uuid "f0cbd017-c75d-413b-9c16-50a58a3bee79")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -7728,8 +7634,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "74663854-638b-4eb2-90a6-7fab2aebfc62")
-		(property "Reference" "#PWR11"
+		(uuid "97067f6b-a28c-4d42-8bd3-18f57128b552")
+		(property "Reference" "#PWR10"
 			(at 71.12 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7784,12 +7690,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4c34bd3-ff44-41de-96c3-ea6c55df4285")
+			(uuid "7bfc2a0a-7d32-4e83-bddc-d1f52444227e")
 		)
 		(instances
 			(project "SensorenPCB"
 				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "#PWR11")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -7806,7 +7712,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c03507b6-9cf7-424f-8b13-5a802e97bd89")
+		(uuid "b24507e3-05fd-49fd-91c8-1d48aa8d0b9d")
 		(property "Reference" "C5"
 			(at 76.2 152.4 0)
 			(show_name no)
@@ -7863,10 +7769,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5eb750d-eba6-402e-9c74-ee8408dfd0ba")
+			(uuid "baed856d-dda7-4c21-b855-37bbdb49ed2f")
 		)
 		(pin "2"
-			(uuid "0fa03b10-068f-4486-805a-e3e984c150a6")
+			(uuid "a93758bf-cc6e-477f-81f3-02e4d742027e")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -7888,8 +7794,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "50e7ebea-75d7-4434-b278-565e65cd038c")
-		(property "Reference" "#PWR12"
+		(uuid "3ed68486-141a-40eb-bd05-997255a17f84")
+		(property "Reference" "#PWR11"
 			(at 73.66 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7944,12 +7850,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cac96601-1b2a-4680-976e-7312160e76f2")
+			(uuid "645bc3fa-98a6-4d3d-9ba0-25766d39dbe4")
 		)
 		(instances
 			(project "SensorenPCB"
 				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "#PWR12")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -7963,7 +7869,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "1b4f19c1-63b7-4c4b-9e95-5cc375b60745")
+		(uuid "e6ed46f8-9c31-4f5b-966b-911ad57783f1")
 	)
 	(label "I2C3_SCL"
 		(at 48.26 127 90)
@@ -7973,7 +7879,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "0eccb445-b395-409e-92fa-42c9fdddc7e7")
+		(uuid "e7519ae8-da65-4d86-b299-d85ae18a061d")
 	)
 	(wire
 		(pts
@@ -7983,7 +7889,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0dbfe268-df17-4290-9e38-82e42bafa537")
+		(uuid "7fba9ec1-9431-4004-a608-0010dc8e5a12")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -7996,8 +7902,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3a426a5e-5960-4bd8-b787-aa293f8f5502")
-		(property "Reference" "#PWR13"
+		(uuid "1388b5ef-7157-4b0c-a120-02f373f78ba2")
+		(property "Reference" "#PWR12"
 			(at 50.8 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8052,12 +7958,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f0f1699e-c67c-4920-aad8-ea8fd9349ed7")
+			(uuid "cc1e888c-1e52-481d-8053-49acbe6757a5")
 		)
 		(instances
 			(project "SensorenPCB"
 				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "#PWR13")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -8071,7 +7977,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fbfb687e-07d1-40e1-a01e-81ae23087753")
+		(uuid "a5f38878-15cf-4303-865a-0965b61e68a8")
 	)
 	(wire
 		(pts
@@ -8081,7 +7987,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c25f271d-f6a0-4667-90ff-72ca7e7b3e0f")
+		(uuid "5d3ad5a8-1395-405e-b872-367479cb66df")
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -8094,8 +8000,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "eb79dd55-5b67-42ac-81a5-b4d59afcc8e9")
-		(property "Reference" "#PWR14"
+		(uuid "9d82f0d1-1f86-4efb-a06a-fa889ccc7aab")
+		(property "Reference" "#PWR13"
 			(at 45.72 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8150,12 +8056,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7a7ff072-65e2-42d7-bd86-2f786ae68f75")
+			(uuid "65fea83f-9fbd-44f3-838d-e5e0d7371845")
 		)
 		(instances
 			(project "SensorenPCB"
 				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "#PWR14")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -8172,7 +8078,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca2f5d83-19ff-4987-96fa-15cd680865b6")
+		(uuid "348b0558-91ce-4bfd-b535-77eb0be61e7c")
 		(property "Reference" "C6"
 			(at 43.18 173.99 0)
 			(show_name no)
@@ -8229,10 +8135,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "940db41b-7e51-4d12-87ed-2ae91b88864a")
+			(uuid "5fab6f00-ad07-4ad5-833e-07b9e2d2f8f2")
 		)
 		(pin "2"
-			(uuid "20aae32c-8a1f-4b84-b6a2-269d2301ed9d")
+			(uuid "9d3317a6-4d1c-4c81-aaa7-1b5aa74117d0")
 		)
 		(instances
 			(project "SensorenPCB"
@@ -8254,8 +8160,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f9790680-7c7c-4840-9020-48f5a12d4aca")
-		(property "Reference" "#PWR15"
+		(uuid "415056b4-dac6-448d-8bab-f7cc16aaea28")
+		(property "Reference" "#PWR14"
 			(at 40.64 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8310,12 +8216,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0ab3bda0-c09c-44d5-88c5-393d2c97dd7f")
+			(uuid "318eb492-a44c-4a29-b740-19b04c7faf3e")
 		)
 		(instances
 			(project "SensorenPCB"
 				(path "/6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
-					(reference "#PWR15")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
