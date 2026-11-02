@@ -648,7 +648,7 @@
         "uuid": "6bbd3fe5-8f8f-459a-820a-fc3559c68fd0"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D10,D15,#PWR16-17,Q3,Q5,R20-22,R29-31",
     "variants": []
   },
   "sheets": [
@@ -657,7 +657,7 @@
       "SensorenPCB"
     ],
     [
-      "b7a496f7-6f9c-4102-ae1b-d4654a16388a",
+      "36acc528-4d2f-45d1-8a4f-610a5ff9badf",
       "LEDs"
     ]
   ],
